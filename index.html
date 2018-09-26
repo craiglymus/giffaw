@@ -12,8 +12,8 @@
 		<link rel="stylesheet" href="styles/styles.css">
 
     <!-- JS -->
-		<script src="http://code.jquery.com/jquery-2.2.2.min.js"></script>
-    <script src="scripts/app.js"></script>
+		<script src="http://code.jquery.com/jquery-2.2.2.min.js" defer></script>
+    <script src="scripts/app.js" defer></script>
 
 		<title>Giffaw</title>
 
@@ -23,15 +23,16 @@
 			<h1 class="text-center">Giffaw</h1>
 			<div class="row">
 				<div class="col-sm-4">
-					<form class="form-inline">
+					<form class="form-inline gif-form">
 						<label>Search Gifs</label>
-						<input type="text" class="form-control gif-input" name="q" value="cats" placeholder="search gifs">
+						<input type="text" class="form-control gif-input" name="q" placeholder="search gifs">
 						<input type="hidden" name="api_key" value="dc6zaTOxFJmzC">
 						<input type="submit" value="Go!" class="btn btn-primary">
 					</form>
 				</div>
 				<div class="col-sm-8">
-					<div class="gif-gallery"></div>
+					<div class="gif-gallery"> 
+					</div>
 				</div>
 			</div>
 		</div>
