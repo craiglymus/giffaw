@@ -14,8 +14,8 @@ $(document).on("ready", function(){
 	 //  	var myUrl = 'https://api.giphy.com/v1/gifs/search?q=' + gifSearch + '&api_key='+ key;
 		// console.log(myUrl);
 		$.ajax({
-		method: 'GET',
-      	url: 'http://api.giphy.com/v1/gifs/search?q=' + gifSearch + '&api_key='+ key,
+		  method: 'GET',
+          url: 'http://api.giphy.com/v1/gifs/search?q=' + gifSearch + '&api_key='+ key,
         // function: onSuccess
         // 	for(let i=0; i < json.data.length; i++) {
         // 		$('.gif-gallery').append('<img src='+json.data[i].url'+'/>'')
